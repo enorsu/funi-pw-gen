@@ -40,6 +40,11 @@ def passwordGeneratorV2(amt_tings):
     return result
     
 
+def throw(errortype):
+    if errortype == "01154":
+        return int("error")
+def retardError():
+    return "01154"
 
 def run_program_with_args():
     args = sys.argv
@@ -67,7 +72,9 @@ def run_program_with_args():
 
             
         elif args[1] == "--wizard":
-            print("Generating a password with a wizard")
+            print("yeah motherfucker i dont implement this", throw(retardError()))
+            
+            
             
     else:
         print("Invalid command")
