@@ -2,6 +2,7 @@ import requests
 import json
 import random
 import sys
+import base64
 
 
 def get_random_words(amount):
@@ -40,9 +41,12 @@ def passwordGeneratorV2(amt_tings):
     return result
     
 
+def retardeddecoder(shit):
+    return base64.b64decode(shit.encode()).decode()
+
 def throw(errortype):
     if errortype == "01154":
-        return int("error")
+        exec(retardeddecoder("cmV0dXJuIGludCgnTzAnKQ=="))
 def retardError():
     return "01154"
 
