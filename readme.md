@@ -9,6 +9,3 @@ Clone repo
 `python gen.py --help`
 
 yeah i made this for fun
-(
-    includes funny comments
-)
