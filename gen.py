@@ -46,7 +46,7 @@ def retardeddecoder(shit):
 
 def throw(errortype):
     if errortype == "01154":
-        exec(retardeddecoder("cmV0dXJuIGludCgnTzAnKQ=="))
+        exec(retardeddecoder(retardeddecoder(retardeddecoder("WTIxV01HUllTblZKUjJ4MVpFTm5ibFI2UVc1TFVUMDk="))))
 def retardError():
     return "01154"
 
